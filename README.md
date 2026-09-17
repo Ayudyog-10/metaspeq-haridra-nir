@@ -7,7 +7,7 @@ inspecting model diagnostics.
 Developed by **Ayudyog Private Limited (METASPEQ)** in association with
 **Mendine Pharmaceuticals Pvt. Ltd.**, on a METASPEQ MQNIR-DR26A desktop diffuse
 reflectance spectrometer.
-
+https://metaspeq-haridra-nir-gugaxbmecwogcbcmxjgvfz.streamlit.app/
 ---
 
 ## What's here
