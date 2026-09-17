@@ -1,0 +1,52 @@
+{
+  "name": "Haridra dry extract \u2014 starch screening (PLS)",
+  "trained": "2026-09-17",
+  "analyte": "starch, % w/w",
+  "matrix": "Haridra (Curcuma longa) dry extract, binary blend",
+  "instrument": "METASPEQ MQNIR-DR26A, diffuse reflectance",
+  "spectral_band_nm": [
+    1074.0,
+    1574.0
+  ],
+  "preprocessing": "snv",
+  "n_components": 8,
+  "calibration_range_pct": [
+    0.99,
+    30.069
+  ],
+  "n_samples": 43,
+  "n_spectra": 688,
+  "validation": "leave-one-sample-out (all 16 replicate scans withheld together)",
+  "cv_metrics": {
+    "n": 688,
+    "r2": 0.9561950245293095,
+    "rmse": 1.7856370795778616,
+    "bias": 0.000622739474350697,
+    "sep": 1.7869360886359273,
+    "rpd": 4.77791374987224,
+    "slope": 0.9596765716253112,
+    "intercept": 0.6928372170538287,
+    "ref_min": 0.99,
+    "ref_max": 30.069,
+    "n_samples": 43
+  },
+  "calibration_metrics": {
+    "n": 688,
+    "r2": 0.9788055565835008,
+    "rmse": 1.2420597347536608,
+    "bias": 1.91836210999184e-14,
+    "sep": 1.2429633796420223,
+    "rpd": 6.86892843978673,
+    "slope": 0.9788055565835012,
+    "intercept": 0.3638356451444439
+  },
+  "rpd_interpretation": "Adequate for quality-control screening and in-process control",
+  "intended_use": "Goods-in screening for gross starch adulteration. Not validated for release testing or for reporting against a specification limit.",
+  "known_limitations": [
+    "Reference values are gravimetric, not anchored to an independent assay.",
+    "Single extract batch (DCL/2404001/24-25) from one supplier.",
+    "Binary blend with soluble starch; not a commercial formulation.",
+    "Sample moisture was neither measured nor controlled.",
+    "Accuracy, repeatability and robustness were not formally assessed."
+  ]
+}
